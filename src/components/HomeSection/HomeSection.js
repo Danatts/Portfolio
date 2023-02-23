@@ -1,4 +1,4 @@
-import styles from '@/styles/HomeSection.module.css';
+import styles from './HomeSection.module.css';
 
 export default function HomeSection() {
   return (

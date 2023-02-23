@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import githubIcon from '../../public/icons/github.svg';
-import linkedinIcon from '../../public/icons/linkedin.svg';
-import styles from '@/styles/ContactFloating.module.css';
+import githubIcon from 'public/icons/github.svg';
+import linkedinIcon from 'public/icons/linkedin.svg';
+import styles from './ContactFloating.module.css';
 
 export default function ContactFloating() {
   return (
