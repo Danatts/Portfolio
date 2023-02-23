@@ -1,0 +1,28 @@
+.navbar {
+  align-items: center;
+  background-color: var(--pale-dogwood);
+  box-shadow: 0rem 0.2rem 1rem var(--shadow);
+  display: flex;
+  justify-content: space-around;
+  height: auto;
+  padding: 1.2rem 0;
+  width: 100%;
+}
+
+.navbar__profile {
+  align-items: center;
+  display: flex;
+  font-size: 2rem;
+  gap: 2rem;
+}
+
+.navbar__picture {
+  border: 0.3rem solid var(--rosy-brown);
+  border-radius: 50%;
+}
+
+.navbar__links {
+  display: flex;
+  font-size: 2rem;
+  gap: 5rem;
+}
