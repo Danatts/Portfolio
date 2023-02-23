@@ -1,3 +1,8 @@
 .home_section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
   height: 100%;
+  justify-content: center;
 }

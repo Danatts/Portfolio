@@ -1,11 +1,11 @@
 :root {
   /* Palette */
   --black: rgb(0, 0, 0);
-  --dodger-blue: rgb(16, 152, 247);
   --white: rgb(255, 255, 255);
-  --rosy-brown: rgb(184, 158, 151);
-  --pale-dogwood: rgb(222, 204, 204);
   --shadow: rgb(120, 120, 120);
+  --primary: #7c3626ff;
+  --secondary: #f5853fff;
+  --terciary: #086375ff;
 }
 
 html {

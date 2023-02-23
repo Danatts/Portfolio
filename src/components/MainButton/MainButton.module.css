@@ -1,0 +1,14 @@
+.main_button {
+  background-color: var(--terciary);
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0.1rem 0.1rem 0.5rem var(--shadow);
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1.5rem 4rem;
+}
+
+.main_button:hover {
+  scale: 1.1;
+}

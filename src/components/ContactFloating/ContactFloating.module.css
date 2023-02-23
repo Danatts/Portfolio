@@ -1,6 +1,6 @@
 .contact_floating {
   align-items: center;
-  background-color: var(--pale-dogwood);
+  background-color: var(--primary);
   border-radius: 1rem;
   display: flex;
   flex-direction: column;

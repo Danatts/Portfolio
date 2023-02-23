@@ -6,6 +6,6 @@
 }
 
 .section_template__content {
-  border: 0.5rem solid var(--black);
+  border: 0.1rem solid Red;
   grid-area: 2 / 2 / 3 / 3;
 }

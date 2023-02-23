@@ -1,7 +1,8 @@
 .navbar {
   align-items: center;
-  background-color: var(--pale-dogwood);
+  background-color: var(--primary);
   box-shadow: 0rem 0.2rem 1rem var(--shadow);
+  color: var(--white);
   display: flex;
   justify-content: space-around;
   height: auto;
@@ -18,7 +19,7 @@
 }
 
 .navbar__picture {
-  border: 0.3rem solid var(--rosy-brown);
+  border: 0.3rem solid var(--white);
   border-radius: 50%;
 }
 
