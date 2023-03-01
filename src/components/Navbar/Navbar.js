@@ -10,15 +10,15 @@ export default function Navbar() {
           alt={"profile picture"}
           className={styles.navbar__picture}
           src={profilePicture}
-          height={70}
-          width={70}
+          height={60}
+          width={60}
         />
-        <p>Daniel Arteta</p>
+        <p>DANIEL ARTETA</p>
       </div>
       <div className={styles.navbar__links}>
         <a href="#">Home</a>
-        <a href="#">Projects</a>
         <a href="#">About</a>
+        <a href="#">Projects</a>
         <a href="#">Contact</a>
       </div>
     </nav>

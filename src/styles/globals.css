@@ -3,9 +3,9 @@
   --black: rgb(0, 0, 0);
   --white: rgb(255, 255, 255);
   --shadow: rgb(120, 120, 120);
-  --primary: #7c3626ff;
-  --secondary: #f5853fff;
-  --terciary: #086375ff;
+  --primary: rgb(0, 109, 170);
+  --secondary: rgb(3, 83, 164);
+  --terciary: rgb(160, 113, 120);
 }
 
 html {

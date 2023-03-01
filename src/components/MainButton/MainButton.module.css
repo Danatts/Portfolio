@@ -1,8 +1,8 @@
 .main_button {
-  background-color: var(--terciary);
+  background-color: var(--primary);
   border: none;
   border-radius: 0.5rem;
-  box-shadow: 0.1rem 0.1rem 0.5rem var(--shadow);
+  box-shadow: 0.1rem 0.1rem 1rem var(--shadow);
   cursor: pointer;
   font-size: 2rem;
   font-weight: bold;
@@ -10,5 +10,5 @@
 }
 
 .main_button:hover {
-  scale: 1.1;
+  scale: 1.05;
 }
