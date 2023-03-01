@@ -16,10 +16,10 @@ export default function Navbar() {
         <p>DANIEL ARTETA</p>
       </div>
       <div className={styles.navbar__links}>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Projects</a>
-        <a href="#">Contact</a>
+        <a href="#home_section">Home</a>
+        <a href="#about_section">About</a>
+        <a href="#project_section">Projects</a>
+        <a href="#contact_section">Contact</a>
       </div>
     </nav>
   );

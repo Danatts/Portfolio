@@ -1,10 +1,11 @@
 import styles from './SectionTemplate.module.css';
 //import background from 'public/images/bg.webp';
 
-export default function SectionTemplate({ children }) {
+export default function SectionTemplate({ id, children }) {
   return (
     <div 
       className= {styles.section_template}
+      id={id}
       //style={{
       //  backgroundImage: `url(${background.src})`,
       //}} 

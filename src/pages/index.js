@@ -11,10 +11,10 @@ export default function Home() {
     <>
       <Navbar />
       <ContactFloating />
-      <SectionTemplate children={<HomeSection />} />
-      <SectionTemplate children={<AboutSection />} />
-      <SectionTemplate children={<ProjectSection />} />
-      <SectionTemplate children={<ContactSection />} />
+      <SectionTemplate id={"home_section"} children={<HomeSection />} />
+      <SectionTemplate id={"about_section"} children={<AboutSection />} />
+      <SectionTemplate id={"project_section"} children={<ProjectSection />} />
+      <SectionTemplate id={"contact_section"} children={<ContactSection />} />
     </>
   );
 }
