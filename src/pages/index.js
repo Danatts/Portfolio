@@ -1,9 +1,9 @@
-import AboutSection from "@/components/AboutSection/AboutSection";
+import AboutSection from "@/sections/AboutSection/AboutSection";
 import ContactFloating from "@/components/ContactFloating/ContactFloating";
-import ContactSection from "@/components/ContactSection/ContactSection";
-import HomeSection from "@/components/HomeSection/HomeSection";
+import ContactSection from "@/sections/ContactSection/ContactSection";
+import HomeSection from "@/sections/HomeSection/HomeSection";
 import Navbar from "@/components/Navbar/Navbar";
-import ProjectSection from "@/components/ProjectSection/ProjectSection";
+import ProjectSection from "@/sections/ProjectSection/ProjectSection";
 import SectionTemplate from "@/templates/SectionTemplate/SectionTemplate";
 
 export default function Home() {
