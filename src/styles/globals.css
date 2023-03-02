@@ -3,9 +3,8 @@
   --black: rgb(0, 0, 0);
   --white: rgb(255, 255, 255);
   --shadow: rgb(120, 120, 120);
-  --primary: rgb(0, 109, 170);
-  --secondary: rgb(3, 83, 164);
-  --terciary: rgb(160, 113, 120);
+  --primary: rgb(25, 22, 69);
+  --secondary: rgb(67, 198, 172);
 }
 
 html {

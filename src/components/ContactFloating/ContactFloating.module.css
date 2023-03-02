@@ -1,15 +1,19 @@
 .contact_floating {
   align-items: center;
-  background-color: var(--white);
+  background-color: var(--primary);
   border-radius: 0.5rem;
   box-shadow: 0.1rem 0.1rem 2rem var(--shadow);
   display: flex;
   flex-direction: column;
   gap: 2rem;
   height: auto;
-  padding: 1.5rem 1rem;
+  padding: 2rem 1rem;
   position: fixed;
   left: 1%;
   top: 50%;
   width: auto;
+}
+
+.contact_floating > a:hover {
+  scale: 1.05;
 }

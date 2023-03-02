@@ -1,8 +1,8 @@
 .navbar {
   align-items: center;
-  background-color: var(--white);
+  background-color: var(--primary);
   box-shadow: 0rem 0.2rem 3rem var(--shadow);
-  color: var(--black);
+  color: var(--secondary);
   display: flex;
   font-weight: bold;
   justify-content: space-around;
@@ -20,16 +20,19 @@
 }
 
 .navbar__picture {
-  border: 0.1rem solid var(--black);
+  border: 0.2rem solid var(--secondary);
   border-radius: 50%;
 }
 
 .navbar__links {
+  color: var(--secondary);
   display: flex;
   font-size: 2rem;
   gap: 5rem;
 }
 
 .navbar__links > a:hover {
-  color: var(--primary);
+  color: var(--secondary);
+  text-decoration: underline 0.5rem;
+  text-underline-offset: 1rem;
 }

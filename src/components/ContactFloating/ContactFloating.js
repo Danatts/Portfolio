@@ -15,8 +15,8 @@ export default function ContactFloating() {
           alt={"github icon"}
           className={""}
           src={githubIcon}
-          height={30}
-          width={30}
+          height={35}
+          width={35}
           />
       </a>
       <a 
