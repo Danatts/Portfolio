@@ -1,11 +1,10 @@
 .section_template {
   display: grid;
-  grid-template-columns: 5% 1fr 5%;
+  grid-template-columns: 10% 1fr 10%;
   grid-template-rows: 8rem 1fr;
   height: 100vh;
 }
 
 .section_template__content {
-  border: 0.1rem solid var(--shadow);
   grid-area: 2 / 2 / 3 / 3;
 }

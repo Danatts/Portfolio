@@ -1,27 +1,16 @@
 .navbar {
   align-items: center;
   background-color: var(--primary);
-  box-shadow: 0rem 0.2rem 3rem var(--shadow);
+  box-shadow: 0rem 0.2rem 3rem var(--secondary);
   color: var(--secondary);
   display: flex;
   font-weight: bold;
-  justify-content: space-around;
+  justify-content: flex-end;
   height: auto;
-  padding: 1rem 0;
+  opacity: 95%;
+  padding: 2rem 10%;
   position: fixed;
   width: 100%;
-}
-
-.navbar__profile {
-  align-items: center;
-  display: flex;
-  font-size: 2rem;
-  gap: 2rem;
-}
-
-.navbar__picture {
-  border: 0.2rem solid var(--secondary);
-  border-radius: 50%;
 }
 
 .navbar__links {

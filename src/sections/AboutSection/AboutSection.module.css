@@ -1,0 +1,19 @@
+.about_section {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-template-rows: 1fr;
+  height: 100%;
+}
+
+.about_section__info {
+  place-self: center;
+}
+
+.about_section__picture {
+  place-self: center;
+}
+
+.about_section__image {
+  border: 0.5rem solid var(--primary);
+  box-shadow: 0.9rem 0.9rem var(--primary);
+}

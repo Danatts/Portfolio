@@ -2,14 +2,15 @@
   align-items: center;
   background-color: var(--primary);
   border-radius: 0.5rem;
-  box-shadow: 0.1rem 0.1rem 2rem var(--shadow);
+  box-shadow: 0.1rem 0.1rem 2rem var(--secondary);
   display: flex;
   flex-direction: column;
   gap: 2rem;
   height: auto;
+  opacity: 95%;
   padding: 2rem 1rem;
   position: fixed;
-  left: 1%;
+  left: 3%;
   top: 50%;
   width: auto;
 }

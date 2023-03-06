@@ -1,8 +1,9 @@
 .main_button {
   background-color: var(--secondary);
-  border: none;
+  border: solid 0.2rem var(--primary);
   border-radius: 0.5rem;
-  box-shadow: 0.1rem 0.1rem 1rem var(--shadow);
+  box-shadow: 0.1rem 0.1rem 1rem var(--primary);
+  color: var(--primary);
   cursor: pointer;
   font-size: 2rem;
   font-weight: bold;

@@ -8,12 +8,12 @@ export default function ContactFloating() {
     <div className={styles.contact_floating}>
       <a
         className={ styles.contact_floating__icon } 
-        href={"https://github.com/Danatts"}
-        target={"_blank"}
+        href={'https://github.com/Danatts'}
+        target={'_blank'}
       >
         <Image
-          alt={"github icon"}
-          className={""}
+          alt={'github icon'}
+          className={''}
           src={githubIcon}
           height={35}
           width={35}
@@ -21,12 +21,12 @@ export default function ContactFloating() {
       </a>
       <a 
         className={ styles.contact_floating__icon }
-        href={"https://www.linkedin.com/in/danielartetasalazar/"}
-        target={"_blank"}
+        href={'https://www.linkedin.com/in/danielartetasalazar/'}
+        target={'_blank'}
       >
         <Image
-          alt={"linkedin icon"}
-          className={""}
+          alt={'linkedin icon'}
+          className={''}
           src={linkedinIcon}
           height={30}
           width={30}

@@ -2,12 +2,13 @@
   /* Palette */
   --black: rgb(0, 0, 0);
   --white: rgb(255, 255, 255);
-  --shadow: rgb(120, 120, 120);
   --primary: rgb(25, 22, 69);
   --secondary: rgb(67, 198, 172);
 }
 
 html {
+  background-color: var(--white);
+  color: var(--primary);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   scroll-behavior: smooth;
 }
