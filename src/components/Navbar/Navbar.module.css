@@ -4,6 +4,7 @@
   box-shadow: 0rem 0.2rem 1rem var(--secondary);
   color: var(--secondary);
   display: flex;
+  font-size: 1.7rem;
   font-weight: bold;
   justify-content: flex-end;
   height: auto;
@@ -16,7 +17,6 @@
 .navbar__links {
   color: var(--secondary);
   display: flex;
-  font-size: 2rem;
   gap: 5rem;
 }
 

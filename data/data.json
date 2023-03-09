@@ -22,11 +22,11 @@
   ],
   "languages": [
     {
-      "languaje": "spanish",
+      "language": "spanish",
       "level": "native"
     },
     {
-      "languaje": "english",
+      "language": "english",
       "level": "b2"
     }
   ],
@@ -36,5 +36,18 @@
   },
   "name": "daniel arteta",
   "projects": [],
-  "technologies": ["javascript", "html", "css", "react", "node", "git", "mongodb", "linux"]
+  "technologies": [
+    "react",
+    "nextjs",
+    "node",
+    "express",
+    "javascript",
+    "html",
+    "css",
+    "responsive design",
+    "git",
+    "mongodb",
+    "postgresql",
+    "linux"
+  ]
 }
