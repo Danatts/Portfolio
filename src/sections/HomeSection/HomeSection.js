@@ -15,7 +15,7 @@ export default function HomeSection() {
     <div className={ styles.home_section }>
       <h1>HI, I AM DANIEL ARTETA</h1>
       <p>I am a Full Stack developer</p>
-      <MainButton action={ handleClick } text={'PROJECTS'} />
+      <MainButton type={'button'} action={ handleClick } text={'PROJECTS'} />
     </div>
   );
 }

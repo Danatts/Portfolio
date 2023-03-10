@@ -6,19 +6,25 @@
 }
 
 .about_section__info {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
   width: 80%;
   place-self: center;
+  text-align: justify;
 }
 
 .about_section__info > h1 {
   font-size: 3rem;
-  margin: 2rem;
+  margin: 2rem 0rem;
   text-align: center;
+  text-decoration: underline 0.5rem;
+  text-underline-offset: 1.5rem;
 }
 
 .about_section__info > h2 {
-  font-size: 2.2rem;
-  margin: 2rem;
+  font-size: 2rem;
+  margin: 0rem 2rem;
 }
 
 .about_section__info > p {

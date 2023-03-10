@@ -10,8 +10,8 @@ import Footer from '@/components/Footer/Footer';
 export default function Home({ data }) {
   return (
     <>
-      <Navbar />
       <ContactFloating />
+      <Navbar />
       <SectionTemplate id={'home_section'} children={<HomeSection />} />
       <SectionTemplate id={'about_section'} children={<AboutSection data={data} />} />
       <SectionTemplate id={'project_section'} children={<ProjectSection />} />

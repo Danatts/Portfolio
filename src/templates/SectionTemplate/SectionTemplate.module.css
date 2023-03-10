@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 10% 1fr 10%;
   grid-template-rows: 8rem 1fr;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .section_template__content {

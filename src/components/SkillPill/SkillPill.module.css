@@ -5,4 +5,5 @@
   font-size: 1.3rem;
   font-weight: bolder;
   padding: 1rem 1.5rem;
+  text-transform: capitalize;
 }
