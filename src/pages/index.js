@@ -22,7 +22,7 @@ export default function Home({ data }) {
 }
 
 export async function getStaticProps() {
-  const response = await fetch('http://portfolio-eight-nu-72.vercel.app/api/user');
+  const response = await fetch('http://localhost:3000/api/user');
   const data = await response.json()
   return {
     props: {
