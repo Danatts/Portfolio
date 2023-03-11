@@ -16,10 +16,18 @@ export default function Home({ data }) {
       <ContactFloating />
       <Sidebar />
       <Navbar />
-      <HomeSections id={'home_section'} children={<HomeSection />} />
-      <HomeSections id={'about_section'} children={<AboutSection data={data} />} />
-      <HomeSections id={'project_section'} children={<ProjectSection />} />
-      <HomeSections id={'contact_section'} children={<ContactSection />} />
+      <HomeSections id={'home_section'}>
+        <HomeSection />
+      </HomeSections>
+      <HomeSections id={'about_section'}>
+        <AboutSection data={data} />
+      </HomeSections>
+      <HomeSections id={'project_section'}>
+        <ProjectSection />
+      </HomeSections>
+      <HomeSections id={'contact_section'}>
+        <ContactSection />
+      </HomeSections>
       <Footer />
       </>
   );
