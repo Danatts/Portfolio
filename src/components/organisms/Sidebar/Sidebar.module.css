@@ -2,12 +2,13 @@
   background-color: var(--primary);
   box-shadow: 0rem 0.2rem 1rem var(--secondary);
   color: var(--secondary);
-  display: none;
+  display: flex;
   flex-direction: column;
   font-size: 2rem;
-  height: 100%;
+  gap: 3rem;
   justify-content: space-between;
-  padding: 10% 3rem;
+  height: 100%;
+  padding: 10rem 3rem 5rem;
   position: fixed;
   width: 50%;
   z-index: 2;
@@ -24,8 +25,8 @@
   justify-content: space-between;
 }
 
-@media(max-width: 768px) {
+@media(min-width: 768px) {
   .sidebar {
-    display: flex;
+    display: none;
   }
 }

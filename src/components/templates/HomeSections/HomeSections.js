@@ -1,4 +1,4 @@
-import styles from './SectionTemplate.module.css';
+import styles from './HomeSections.module.css';
 
 export default function SectionTemplate({ id, children }) {
   return (
