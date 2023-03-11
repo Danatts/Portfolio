@@ -1,8 +1,9 @@
-# Portfolio
+# My Portfolio
 
 ## Description
 
-Welcome! This is my personal portfolio repository.
+Welcome! This is the repository of my portfolio as a developer.
+Take a look :wink:
 
 ## Project Tech Stack
 
