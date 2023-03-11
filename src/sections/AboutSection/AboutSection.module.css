@@ -38,10 +38,17 @@
 }
 
 .about_section__picture {
+  display: none;
   place-self: center;
 }
 
 .about_section__image {
   border: 0.5rem solid var(--primary);
   box-shadow: 0.9rem 0.9rem var(--primary);
+}
+
+@media (min-width: 992px) {
+  .about_section__image {
+    display: block;
+  }
 }

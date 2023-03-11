@@ -13,8 +13,15 @@
   left: 1%;
   top: 40%;
   width: auto;
+  z-index: 3;
 }
 
-.contact_floating > a:hover {
+.contact_floating > :is(a:hover, a:active) {
   scale: 1.05;
+}
+
+@media(max-width: 768px) {
+  .contact_floating {
+    display: none;
+  }
 }

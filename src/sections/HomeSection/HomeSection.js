@@ -1,4 +1,4 @@
-import MainButton from '@/components/MainButton/MainButton';
+import MainButton from '@/components/atoms/MainButton/MainButton';
 import styles from './HomeSection.module.css';
 
 export default function HomeSection() {

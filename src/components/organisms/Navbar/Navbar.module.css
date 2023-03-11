@@ -5,7 +5,6 @@
   color: var(--secondary);
   display: flex;
   font-size: 1.7rem;
-  font-weight: bold;
   justify-content: flex-end;
   height: auto;
   opacity: 95%;
@@ -22,6 +21,12 @@
 
 .navbar__links > a:hover {
   color: var(--secondary);
-  text-decoration: underline 0.5rem;
+  text-decoration: underline 0.2rem;
   text-underline-offset: 1rem;
+}
+
+@media(max-width: 768px) {
+  .navbar {
+    display: none;
+  }
 }

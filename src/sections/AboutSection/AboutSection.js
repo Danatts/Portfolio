@@ -1,4 +1,4 @@
-import SkillPill from '@/components/SkillPill/SkillPill';
+import SkillPill from '@/components/atoms/SkillPill/SkillPill';
 import Image from 'next/image';
 import profilePicture from 'public/images/profile.jpeg';
 import styles from './AboutSection.module.css';

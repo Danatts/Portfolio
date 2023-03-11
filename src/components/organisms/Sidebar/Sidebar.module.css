@@ -1,0 +1,31 @@
+.sidebar {
+  background-color: var(--primary);
+  box-shadow: 0rem 0.2rem 1rem var(--secondary);
+  color: var(--secondary);
+  display: none;
+  flex-direction: column;
+  font-size: 2rem;
+  height: 100%;
+  justify-content: space-between;
+  padding: 10% 3rem;
+  position: fixed;
+  width: 50%;
+  z-index: 2;
+}
+
+.sidebar__links {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.sidebar__icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media(max-width: 768px) {
+  .sidebar {
+    display: flex;
+  }
+}
